@@ -14,7 +14,7 @@ if(isNaN(input)){
 div.innerText = `Result:${input}`				
 
 			resolve(input)
-		},2000)
+		},1900)
 	})
 	.then((res)=>{
 		return new Promise((resolve,reject)=>{
